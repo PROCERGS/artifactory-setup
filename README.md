@@ -1,6 +1,6 @@
 # Script de Configuração do Artifactory
 
-Esse script pode ser utilizado para configurar, automaticamente, o uso do Artifactory da PROCERGS no Composer, NPM e NuGet.
+Esse script pode ser utilizado para configurar, automaticamente, o uso do Artifactory da PROCERGS no Composer, NPM, NuGet e Maven.
 
 ## Modo de uso
 
