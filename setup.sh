@@ -19,3 +19,9 @@ if [ -x "$(command -v nuget)" ]; then
     echo "Configuring nuget..."
     nuget sources Add -Name Artifactory -Source https://artifactory.des.intra.rs.gov.br/artifactory/api/nuget/nuget
 fi
+
+# Setup Maven
+if [ -x "$(command -v mvn)" ]; then
+    echo "Configuring maven..."
+    cp -b maven.xml ~/.m2/settings.xml
+fi
