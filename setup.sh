@@ -23,5 +23,5 @@ fi
 # Setup Maven
 if [ -x "$(command -v mvn)" ]; then
     echo "Configuring maven..."
-    cp -b maven.xml ~/.m2/settings.xml
+    cp --backup=numbered maven.xml ~/.m2/settings.xml
 fi
